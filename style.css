@@ -223,7 +223,7 @@
 /*hero1*/
 .hero1{
     
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 
@@ -270,6 +270,10 @@
 
 @media (max-width: 391px) {
 /*hero1*/   
+.hero1{
+    
+    margin-top: 70px;
+}
 .contact1 {
   background: var(--blue);
   color: var(--white);
