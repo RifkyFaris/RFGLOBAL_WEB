@@ -268,7 +268,8 @@
 /*hero1*/
 }
 
-@media (max-width: 380px) {
+@media (max-width: 391px) {
+/*hero1*/   
 .contact1 {
   background: var(--blue);
   color: var(--white);
@@ -290,7 +291,8 @@
 .herobuttons{
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    width: 82%;
     
 }
+/*hero1*/
 }
