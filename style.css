@@ -17,9 +17,7 @@
 }
 
 /* Header  */
-.menus{
-  
-}
+
 .hidden {
   display: none !important;
 }
@@ -113,7 +111,7 @@
 .trusted {
   display: flex;
   justify-content: space-between;
-  width: 235px;
+  width: 240px;
   background: var(--grey);
   padding: 6px 10px;
   border-radius: 15px;
