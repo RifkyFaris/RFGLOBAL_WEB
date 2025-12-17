@@ -214,6 +214,69 @@
   border: 3px solid var(--blue);
 }
 /*hero2*/
+/*hero3*/
+.shoplink_img{
+  width: 52%;
+  background: var(--grey);
+  border-radius: 10px;
+  padding: 20px;
+
+}
+.hero3_container{
+ display: flex;
+ margin: 50px auto;
+ width: 90%;
+ justify-content: space-between;
+}
+.SHOPLINK_title{
+  font-size: 15px;
+  font-weight: 500;
+  text-align: left;
+  color: var(--blue);
+  border: 2px solid var(--blue);
+  padding: 10px;
+  border-radius: 19px;
+  width: fit-content;
+}
+.asmart{
+  margin-top: 10px;
+  font-size: 30px;
+  font-weight: 600;
+  color: var(--blue);
+}
+.shoplink{
+  width: 46%;
+  margin-top: 40px;
+}
+.options_flex{
+  display: flex;
+}
+.options{
+  color: var(--blue);
+  padding: 10px;
+  border: 2px solid var(--blue);
+  margin: 15px 15px 15px 0px;
+  border-radius: 5px;
+  width: 250px;
+  text-align: center;
+}
+.explore:hover {
+  border-color: var(--blue);
+  background: var(--white);
+  color: var(--blue);
+}
+.explore {
+  background: var(--blue);
+  color: var(--white);
+  border: 2px solid var(--blue);
+  padding: 10px 18px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 250px;
+  margin-left: 15px 15px 15px 0px;
+}
+/*hero3*/
 /* -------------------- MOBILE -------------------- */
 @media (max-width: 1025px) {
   /*450*/
@@ -302,7 +365,7 @@
 
 /*hero2*/
 .whatwe{
-  font-size: 23px;
+  font-size: 25px;
   margin-top: 52px;
 }
 
@@ -323,6 +386,60 @@
   font-size: 15px;
 }
 /*hero2*/
+
+/*hero3*/
+.shoplink_img{
+  width: 93%;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0px auto;
+  display: block;
+
+}
+.hero3_container{
+ display: block;
+ margin: 30px auto;
+ width: 90%;
+}
+.SHOPLINK_title{
+  font-size: 12px;
+  font-weight: 500;
+  
+  margin: -20px auto 0px auto;
+  padding: 10px;
+  border-radius: 19px;
+  width: fit-content;
+}
+.asmart{
+  margin-top: 10px;
+  font-size: 15px;
+  text-align: center;
+}
+.shoplink{
+  width: 100%;
+  margin-top: 40px;
+}
+.options_flex{
+  display: block;
+}
+.options{
+  padding: 10px;
+  margin: 15px auto;
+  border-radius: 5px;
+  width: 250px;
+  font-size: 15px;
+}
+
+.explore {
+  padding: 10px 18px;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 250px;
+  margin: 0px auto;
+  display: block;
+}
+/*hero3*/
 }
 
 @media (max-width: 391px) {
