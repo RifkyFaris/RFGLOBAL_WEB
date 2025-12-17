@@ -17,7 +17,7 @@ closeIcon.addEventListener("click", () => {
 });
 
 // close when clicking menu item
-document.querySelectorAll(".li_header").forEach(item => {
+document.querySelectorAll(".li_header").forEach((item) => {
   item.addEventListener("click", () => {
     menu.classList.remove("active");
     hamburger.classList.remove("hidden");
