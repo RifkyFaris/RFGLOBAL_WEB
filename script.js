@@ -24,3 +24,5 @@ document.querySelectorAll(".li_header").forEach((item) => {
     closeIcon.classList.remove("show");
   });
 });
+
+
