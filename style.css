@@ -56,10 +56,12 @@
 .a {
   text-decoration: none;
   color: var(--blue);
+
+  padding: 10px 18px;
 }
 .a_contact {
   color: var(--white);
-
+  padding: 10px 18px;
   text-decoration: none;
 }
 .a_contact:hover {
@@ -91,11 +93,13 @@
 
 /* Menu item */
 .li_header {
-  padding: 10px 18px;
   font-size: 15px;
   border-radius: 5px;
   border: 2px solid transparent;
   cursor: pointer;
+}
+.li_header a{
+  display: block;
 }
 
 .li_header:hover {
@@ -472,6 +476,51 @@
 }
 
 /*footer*/
+
+/*about*/
+.about{
+  margin-top: -70px;
+}
+.founded{
+  color: var(--darkgrey);
+  width: 80%;
+  text-align: center;
+  margin: 20px auto;
+}
+.aboutflex{
+  display: flex;
+  width: 80%;
+  margin: 35px auto;
+  justify-content: space-around;
+}
+.flexcontainer{
+  background: var(--grey);
+  padding: 20px;
+  width: 25%;
+  border-radius: 10px;
+}
+.number_about{
+  font-size: 60px;
+  font-weight: 700;
+  color: var(--blue);
+  margin-top: -20px;
+}
+.abouticon{
+  color: var(--blue);
+  font-size: 40px;
+  text-align: right;
+  display: block;
+  
+}
+.about1{
+  margin-top: -60px;
+}
+.map{
+  width: 1200px;
+  margin: 40px auto;
+  display: block;
+}
+/*about*/
 /* -------------------- MOBILE -------------------- */
 @media (max-width: 1025px) {
   /*450*/
@@ -682,6 +731,34 @@
 }
 
 /*footer*/
+
+
+/*about*/
+.about{
+  margin-top: -20px;
+}
+.aboutflex{
+  display: block;
+  width: 100%;
+  margin: 35px auto;
+}
+.flexcontainer{
+  width: 80%;
+  display: block;
+  margin: 20px auto;
+}
+.number_about{
+  font-size: 50px;
+}
+.about1{
+  margin-top: 0px;
+}
+.map{
+  width: 90%;
+  margin: 40px auto;
+  display: block;
+}
+/*about*/
 }
 
 @media (max-width: 391px) {
