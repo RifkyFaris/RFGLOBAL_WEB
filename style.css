@@ -13,7 +13,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Work Sans", sans-serif;
-  
 }
 
 /* Header  */
@@ -177,7 +176,7 @@
   margin: 40px auto;
 }
 /*hero1*/
-/*hero2*/
+/**/
 .whatwe{
   font-size: 30px;
   font-weight: 600;
@@ -213,7 +212,7 @@
   background: var(--white);
   border: 3px solid var(--blue);
 }
-/*hero2*/
+/**/
 /*hero3*/
 .shoplink_img{
   width: 52%;
@@ -277,6 +276,54 @@
   margin-left: 15px 15px 15px 0px;
 }
 /*hero3*/
+/*hero4*/
+.we_combine {
+  font-size: 20px;
+  width: 75%;
+  margin: 40px auto;
+  color:var(--darkgrey);
+  text-align: center;
+
+}
+.whychoose_div_flex{
+  display: flex;
+  width: 90%;
+  
+  justify-content: space-around;
+  margin: 0px auto;
+}
+.whychoose_div{
+  border: 2px solid var(--darkgrey);
+  width: 22%;
+  padding: 10px;
+  border-radius: 10px;
+}
+.circle{
+  width: 60px;
+  height: 60px;
+  background: var(--grey);
+  margin: 10px auto;
+  border-radius: 100%;text-align: center;
+  
+}
+.Technical{
+  font-size: 20px;
+  color: var(--blue);
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.leveraging{
+  font-size: 14px;
+  text-align: center;
+  color: var(--darkgrey);
+}
+.circle_icon{
+  font-size: 25px;
+  margin-top: 17.5px;
+  color: var(--blue);
+}
+/*hero4*/
 /* -------------------- MOBILE -------------------- */
 @media (max-width: 1025px) {
   /*450*/
@@ -363,7 +410,7 @@
   }
   /*hero1*/
 
-/*hero2*/
+/**/
 .whatwe{
   font-size: 25px;
   margin-top: 52px;
@@ -385,7 +432,7 @@
 .webuild{
   font-size: 15px;
 }
-/*hero2*/
+/**/
 
 /*hero3*/
 .shoplink_img{
@@ -440,6 +487,28 @@
   display: block;
 }
 /*hero3*/
+/*hero4*/
+.we_combine {
+  font-size: 16px;
+  margin: 30px auto;
+  width: 85%;
+
+}
+
+.whychoose_div_flex{
+  display: block;
+  width: 90%;
+}
+.whychoose_div{
+  border: 2px solid var(--darkgrey);
+  width: 100%;
+  margin-bottom: 10px;
+}
+.Technical{
+  margin-bottom: 10px;
+}
+/*hero4*/
+
 }
 
 @media (max-width: 391px) {
