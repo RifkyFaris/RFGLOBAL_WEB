@@ -551,6 +551,12 @@
   font-size: 15px;
   background: var(--blue);
   color: var(--white);
+  border: 2px solid transparent;
+}
+.contact_submit:hover{
+  background: var(--white);
+  color: var(--blue);
+  border: 2px solid var(--blue);
 }
 /*contact us*/
 /* -------------------- MOBILE -------------------- */
